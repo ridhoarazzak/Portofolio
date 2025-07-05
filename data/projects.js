@@ -21,6 +21,7 @@ export const projects = [
     // Optional: add more fields like 'repo_url', 'demo_url', 'tools_used', et
   // Anda bisa menambahkan lebih banyak proyek di sini
   // --- TAMBAHKAN PROYEK BARU DI BAWAH INI ---
+  },
   {
     slug: 'sdgs-solok-selatan', // Buat slug yang unik dan deskriptif
     title: 'Indikator SDGs Berbasis Geospasial di Solok Selatan', // Judul proyek Anda
