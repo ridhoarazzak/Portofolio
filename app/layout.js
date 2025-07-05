@@ -1,6 +1,7 @@
+// app/layout.js
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar"; // Pastikan path ini benar!
 
 const inter = Inter({ subsets: ["latin"] });
 
