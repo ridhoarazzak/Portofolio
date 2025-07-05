@@ -1,22 +1,27 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        'background': '#1a202c', // Abu-abu gelap
-        'surface': '#2d3748',    // Warna kartu/permukaan
-        'primary': '#4299e1',    // Biru cerah untuk aksen
-        'text-main': '#e2e8f0',  // Teks utama (putih keabuan)
-        'text-secondary': '#a0aec0', // Teks sekunder (abu-abu)
+        // Definisikan palet warna Anda di sini
+        background: '#1a1a2e', // Contoh warna latar belakang gelap
+        surface: '#2a2a4a',    // Contoh warna untuk card/elemen di atas background
+        primary: '#00bcd4',    // Contoh warna aksen cerah (biru cyan)
+        'text-main': '#e0e0e0', // Contoh warna teks utama terang
+        'text-secondary': '#a0a0a0', // Contoh warna teks sekunder/abu-abu
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
-  // Plugin untuk membuat iframe responsif
-  plugins: [
-    require('@tailwindcss/aspect-ratio'),
-  ],
+  plugins: [],
 };
