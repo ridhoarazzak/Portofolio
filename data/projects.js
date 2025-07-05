@@ -18,29 +18,32 @@ export const projects = [
     description: 'Proyek ini menggunakan data citra satelit Landsat untuk menganalisis dan memvisualisasikan laju deforestasi di provinsi Kalimantan Tengah dari tahun 2010 hingga 2025. Metodologi yang digunakan adalah klasifikasi tutupan lahan supervised dan analisis perubahan temporal, memanfaatkan kekuatan komputasi awan dari Google Earth Engine.',
     // URL to the Google Earth Engine (GEE) application or associated dashboard
     gee_app_url: 'https://lookerstudio.google.com/embed/reporting/43dc4b86-c4b5-4338-89c0-abb328dd3874/page/p_9n3j3d7h2c', // GANTI DENGAN URL GEE APP ANDA YANG SEBENARNYA!
-    // Optional: add more fields like 'repo_url', 'demo_url', 'tools_used', etc.
-    // repo_url: 'https://github.com/ridhoarazzak/deforestasi-kalimantan',
-    // year: 2024,
-  },
-  {
-    slug: 'analisis-uhi-padang',
-    title: 'Analisis Urban Heat Island Kota Padang',
-    thumbnail: '/images/uhi-padang-thumbnail.png',
-    tags: ['Thermal', 'Analisis Spasial', 'Landsat 8', 'LST', 'GIS'],
-    description: 'Menggunakan data thermal dari Landsat 8 untuk mengidentifikasi dan memetakan efek Pulau Bahang Perkotaan (Urban Heat Island) di Kota Padang. Analisis ini mengkaji korelasi antara Suhu Permukaan Tanah (LST) dengan kerapatan bangunan dan ruang terbuka hijau, memberikan wawasan untuk perencanaan kota yang lebih baik.',
-    gee_app_url: 'https://lookerstudio.google.com/embed/reporting/43dc4b86-c4b5-4338-89c0-abb328dd3874/page/p_9n3j3d7h2c', // GANTI DENGAN URL GEE APP ANDA YANG SEBENARNYA!
-    // Optional: add more fields
-    // year: 2023,
-  },
-  {
-    slug: 'pemetaan-kepadatan-penduduk-jakarta',
-    title: 'Pemetaan Kepadatan Penduduk Jakarta',
-    thumbnail: '/images/kepadatan-penduduk-thumbnail.png', // Ganti dengan path gambar Anda
-    tags: ['Demografi', 'Visualisasi Data', 'QGIS', 'OpenStreetMap'],
-    description: 'Proyek ini berfokus pada pemetaan kepadatan penduduk di area Jakarta menggunakan data publik dan teknik Geographic Information System (GIS). Hasilnya dapat digunakan untuk perencanaan infrastruktur dan layanan publik, mengidentifikasi area dengan kebutuhan prioritas.',
-    gee_app_url: 'https://lookerstudio.google.com/embed/reporting/43dc4b86-c4b5-4338-89c0-abb328dd3874/page/p_9n3j3d7h2c', // GANTI DENGAN URL GEE APP ANDA YANG SEBENARNYA!
-    // Optional: add more fields
-    // year: 2022,
-  },
+    // Optional: add more fields like 'repo_url', 'demo_url', 'tools_used', et
   // Anda bisa menambahkan lebih banyak proyek di sini
+  // --- TAMBAHKAN PROYEK BARU DI BAWAH INI ---
+  {
+    slug: 'sdgs-solok-selatan', // Buat slug yang unik dan deskriptif
+    title: 'Indikator SDGs Berbasis Geospasial di Solok Selatan', // Judul proyek Anda
+    thumbnail: '/images/sdgs-solok-selatan-thumbnail.png', // Ganti dengan path ke gambar thumbnail yang relevan
+    tags: ['SDGs', 'Analisis Spasial', 'Google Earth Engine', 'Indikator Pembangunan'],
+    description: 'Proyek ini berfokus pada pengembangan dan visualisasi indikator Sustainable Development Goals (SDGs) menggunakan data geospasial di wilayah Solok Selatan. Aplikasi ini memungkinkan pemantauan kemajuan SDGs secara interaktif.',
+    gee_app_url: 'https://ee-mrgridhoarazzak.projects.earthengine.app/view/sdgs-solok-selatan', // Link GEE App Anda
+    // Anda bisa menambahkan properti lain seperti 'year', 'client', 'tools_used', dll.
+  },
+  {
+    slug: 'lubuk-gadang-1', // Buat slug yang unik dan deskriptif
+    title: 'Pemetaan Potensi Wilayah Lubuk Gadang 1', // Judul proyek Anda
+    thumbnail: '/images/lubuk-gadang-1-thumbnail.png', // Ganti dengan path ke gambar thumbnail yang relevan
+    tags: ['Pemetaan', 'Potensi Wilayah', 'Analisis Spasial', 'Google Earth Engine', 'Perencanaan'],
+    description: 'Proyek ini melakukan pemetaan dan analisis potensi geospasial di wilayah Lubuk Gadang 1. Data dari Google Earth Engine digunakan untuk mengidentifikasi berbagai fitur geografis dan sumber daya yang relevan untuk perencanaan dan pengembangan wilayah.',
+    gee_app_url: 'https://ee-mrgridhoarazzak.projects.earthengine.app/view/lubuk-gadang-1', // Link GEE App Anda
+  },
+  {
+    slug: 'pemicu-tambang', // Buat slug yang unik dan deskriptif
+    title: 'Analisis Pemicu Tambang Berbasis Geospasial', // Judul proyek Anda
+    thumbnail: '/images/pemicu-tambang-thumbnail.png', // Ganti dengan path ke gambar thumbnail yang relevan
+    tags: ['Pertambangan', 'Analisis Spasial', 'Google Earth Engine', 'Lingkungan', 'Regulasi'],
+    description: 'Proyek ini menganalisis faktor-faktor pemicu aktivitas pertambangan menggunakan data geospasial. Aplikasi ini dapat membantu dalam pemantauan dan perencanaan terkait dampak lingkungan serta kepatuhan regulasi di area pertambangan.',
+    gee_app_url: 'https://ee-mrgridhoarazzak.projects.earthengine.app/view/pemicu-tambang', // Link GEE App Anda
+  },
 ];
