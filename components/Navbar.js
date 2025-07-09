@@ -43,7 +43,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo/Nama Portofolio */}
         <Link href="/" className="text-2xl font-bold text-primary hover:text-primary-dark transition-colors">
-          Ridho.dev
+          Ridho.Arazzak
         </Link>
 
         {/* Menu Desktop */}
