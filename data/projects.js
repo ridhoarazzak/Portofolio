@@ -44,7 +44,7 @@ export const projects = [
     title: 'Analisis Pemicu Tambang Berbasis Geospasial', // Judul proyek Anda
     thumbnail: '/images/pemicu-tambang-thumbnail.png', // Ganti dengan path ke gambar thumbnail yang relevan
     tags: ['Pertambangan', 'Analisis Spasial', 'Google Earth Engine', 'Lingkungan', 'Regulasi'],
-    description: 'Proyek ini menganalisis faktor-faktor pemicu aktivitas pertambangan menggunakan data geospasial. Aplikasi ini dapat membantu dalam pemantauan dan perencanaan terkait dampak lingkungan serta kepatuhan regulasi di area pertambangan.',
+    description: 'Proyek ini menganalisis faktor-faktor pemicu aktivitas pertambangan menggunakan data geospasial. Aplikasi ini dapat membantu dalam pemantauan dan perencanaan terkait dampak lingkungan serta kepatuhan regulasi di area pertambangan.🔗https://ee-mrgridhoarazzak.projects.earthengine.app/view/pemicu-tambang',
     gee_app_url: 'https://ee-mrgridhoarazzak.projects.earthengine.app/view/pemicu-tambang', // Link GEE App Anda
   },
 ];
