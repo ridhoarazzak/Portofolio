@@ -7,7 +7,7 @@ export default function AboutPage() {
           Halo! Saya Ridho Arazzak, seorang profesional di bidang geospasial dengan minat mendalam pada remote sensing, analisis data, dan bagaimana teknologi dapat digunakan untuk memahami perubahan di planet kita.
         </p>
         <p>
-          Lulusan dari [Nama Universitas Anda] dengan jurusan [Jurusan Anda], saya memiliki pengalaman dalam menggunakan berbagai alat GIS, terutama Google Earth Engine, untuk memproses dan menganalisis data satelit skala besar.
+          Lulusan dari SMAN 3 Solok Selatan saja hehe, saya memiliki pengalaman dalam menggunakan berbagai alat GIS, terutama Google Earth Engine, untuk memproses dan menganalisis data satelit skala besar.
         </p>
         <p>
           Portofolio ini adalah kumpulan dari beberapa proyek yang pernah saya kerjakan, menunjukkan aplikasi praktis dari keahlian saya dalam memecahkan masalah dunia nyata.
